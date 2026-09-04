@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22285e0c-3c66-45c7-b238-907f9236b4c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai3/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="22285e0c-3c66-45c7-b238-907f9236b4c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +97,7 @@
     "Python.hoat_dong_1_2_3.executor": "Run",
     "Python.hoat_dong_4_5.executor": "Run",
     "Python.quan_ly_kho_hang.executor": "Run",
+    "Python.quan_ly_sinh_vien.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -269,7 +267,7 @@
       <updated>1787888210537</updated>
       <workItem from="1787888211538" duration="62000" />
       <workItem from="1787888286355" duration="1913000" />
-      <workItem from="1788483869335" duration="5973000" />
+      <workItem from="1788483869335" duration="6529000" />
     </task>
     <servers />
   </component>
@@ -280,8 +278,9 @@
     <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2_3.coverage" NAME="hoat_dong_1_2_3 Coverage Results" MODIFIED="1788490247266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$1.coverage" NAME="1 Coverage Results" MODIFIED="1788490968671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$dang_ky_thong_tin.coverage" NAME="dang_ky_thong_tin Coverage Results" MODIFIED="1787890241793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_sinh_vien.coverage" NAME="quan_ly_sinh_vien Coverage Results" MODIFIED="1788491186371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_4_5.coverage" NAME="hoat_dong_4_5 Coverage Results" MODIFIED="1788489078877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2.coverage" NAME="hoat_dong_1_2 Coverage Results" MODIFIED="1787888420316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
-    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_kho_hang.coverage" NAME="quan_ly_kho_hang Coverage Results" MODIFIED="1788489270876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_kho_hang.coverage" NAME="quan_ly_kho_hang Coverage Results" MODIFIED="1788491235923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
   </component>
 </project>
