@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22285e0c-3c66-45c7-b238-907f9236b4c6" name="Changes" comment="" />
+    <list default="true" id="22285e0c-3c66-45c7-b238-907f9236b4c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bai4/dem_tan_suat_tu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai4/hoat_dong_1_2_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai4/hoat_dong_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai4/quan_ly_diem_sinh_vien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai4/tu_dien_anh_viet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,63 +27,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vietanh75590"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vietanh75590/python.git",
+    "accountId": "7ac3afaf-62d0-4957-b8f4-9a79d668823e"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0032218966610378" />
-      <entry key="MS500" value="1.46983170368651" />
-      <entry key="S2" value="2.7633145720050507" />
-      <entry key="S5" value="3.55108322530858" />
-      <entry key="S10" value="4.3922006780227605" />
-      <entry key="S30" value="7.405637461546312" />
-      <entry key="S60" value="10.641028558818006" />
-      <entry key="M2" value="16.31358030097519" />
-      <entry key="M5" value="39.74379451175893" />
-      <entry key="M10" value="82.57151513989542" />
-      <entry key="M15" value="115.30450110199261" />
-      <entry key="M30" value="169.417759088129" />
-      <entry key="H1" value="209.35524132469067" />
-      <entry key="H2" value="233.83710427172662" />
-      <entry key="H4" value="247.42221771798933" />
-      <entry key="D1" value="259.49811277388534" />
-      <entry key="W1" value="261.64077288392593" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000008467" />
+      <entry key="S10" value="1.000001000266388" />
+      <entry key="S30" value="1.015126402415136" />
+      <entry key="S60" value="1.2204629307348984" />
+      <entry key="M2" value="1.9819470509760022" />
+      <entry key="M5" value="3.846503910726942" />
+      <entry key="M10" value="8.164792180768458" />
+      <entry key="M15" value="17.50447390800383" />
+      <entry key="M30" value="62.527151787132006" />
+      <entry key="H1" value="138.9140843686775" />
+      <entry key="H2" value="213.12067889310458" />
+      <entry key="H4" value="265.5359510531464" />
+      <entry key="D1" value="319.7931062512221" />
+      <entry key="W1" value="330.2262292215233" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.710427804665483E-50" />
-      <entry key="MS500" value="1.4633561653571966E-10" />
-      <entry key="S2" value="0.003478063529125439" />
-      <entry key="S5" value="0.10388073269920597" />
-      <entry key="S10" value="0.32230534078604095" />
-      <entry key="S30" value="0.6856290238449834" />
-      <entry key="S60" value="0.828259634181246" />
-      <entry key="M2" value="0.9311334595715098" />
-      <entry key="M5" value="1.5105986097068045" />
-      <entry key="M10" value="3.2509273132985053" />
-      <entry key="M15" value="4.838413992479843" />
-      <entry key="M30" value="7.706153192802029" />
-      <entry key="H1" value="9.94461295616799" />
-      <entry key="H2" value="11.352865714730303" />
-      <entry key="H4" value="12.14407413128253" />
-      <entry key="D1" value="12.852621703676595" />
-      <entry key="W1" value="12.978827145752941" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.4524686712986808E-285" />
+      <entry key="S5" value="1.1615061416894539E-114" />
+      <entry key="S10" value="1.1093094422829169E-57" />
+      <entry key="S30" value="1.6523308896376896E-19" />
+      <entry key="S60" value="7.514375222732969E-10" />
+      <entry key="M2" value="5.4655313535759114E-5" />
+      <entry key="M5" value="0.05199542704431359" />
+      <entry key="M10" value="0.6007334172228734" />
+      <entry key="M15" value="1.5196394346826385" />
+      <entry key="M30" value="4.65801386580085" />
+      <entry key="H1" value="9.197674581351" />
+      <entry key="H2" value="13.400031299280714" />
+      <entry key="H4" value="16.322193662613437" />
+      <entry key="D1" value="19.3261491748435" />
+      <entry key="W1" value="19.902120328771563" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.009625680030881174" />
-      <entry key="MS500" value="0.6266435707644469" />
-      <entry key="S2" value="2.2211381182617242" />
-      <entry key="S5" value="3.3352048914634933" />
-      <entry key="S10" value="4.501922631862029" />
-      <entry key="S30" value="7.976764029750554" />
-      <entry key="S60" value="11.391552716958051" />
-      <entry key="M2" value="17.19334533369307" />
-      <entry key="M5" value="41.21376533113822" />
-      <entry key="M10" value="85.77863539684569" />
-      <entry key="M15" value="120.10051014597936" />
-      <entry key="M30" value="177.0912122305636" />
-      <entry key="H1" value="219.27910887252858" />
-      <entry key="H2" value="245.1782265775927" />
-      <entry key="H4" value="259.5600365713" />
-      <entry key="D1" value="272.3496348072771" />
-      <entry key="W1" value="274.61944148199814" />
+      <entry key="MS100" value="0.9138314502294005" />
+      <entry key="MS500" value="0.9821395952633915" />
+      <entry key="S2" value="0.995504677670617" />
+      <entry key="S5" value="0.9981994402873888" />
+      <entry key="S10" value="0.999100265333778" />
+      <entry key="S30" value="1.0146328012541168" />
+      <entry key="S60" value="1.2190177860494869" />
+      <entry key="M2" value="1.9790742546551396" />
+      <entry key="M5" value="3.8951564398775895" />
+      <entry key="M10" value="8.761101774697417" />
+      <entry key="M15" value="19.01748322192833" />
+      <entry key="M30" value="67.1732279313427" />
+      <entry key="H1" value="148.09837262854512" />
+      <entry key="H2" value="226.51035651393036" />
+      <entry key="H4" value="281.851662421537" />
+      <entry key="D1" value="339.11794834178846" />
+      <entry key="W1" value="350.12815657461994" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -90,14 +113,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "KEY_CHAT_IN_TOOLWINDOW": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.1.executor": "Run",
     "Python.dang_ky_thong_tin.executor": "Run",
+    "Python.dem_tan_suat_tu.executor": "Run",
     "Python.hoat_dong_1_2.executor": "Run",
+    "Python.hoat_dong_1_2_3 (1).executor": "Run",
     "Python.hoat_dong_1_2_3.executor": "Run",
+    "Python.hoat_dong_4.executor": "Run",
     "Python.hoat_dong_4_5.executor": "Run",
+    "Python.quan_ly_diem_sinh_vien (1).executor": "Run",
+    "Python.quan_ly_diem_sinh_vien.py (1).executor": "Run",
+    "Python.quan_ly_diem_sinh_vien.py..executor": "Run",
     "Python.quan_ly_kho_hang.executor": "Run",
     "Python.quan_ly_sinh_vien.executor": "Run",
+    "Python.tu_dien_anh_viet.py,.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -108,15 +140,18 @@
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/baitapbuoi2",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.quan_ly_kho_hang">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.quan_ly_diem_sinh_vien (1)">
+    <configuration name="dem_tan_suat_tu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baitapbuoi2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,14 +160,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai3/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai4/dem_tan_suat_tu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hoat_dong_1_2_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quan_ly_diem_sinh_vien (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baitapbuoi2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,14 +185,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai3/hoat_dong_1_2_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai4/quan_ly_diem_sinh_vien.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hoat_dong_4_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quan_ly_diem_sinh_vien" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baitapbuoi2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,14 +210,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai3/hoat_dong_4_5.py" />
+      <option name="SCRIPT_NAME" value="D:\baitapbuoi2\bai4\quan_ly_diem_sinh_vien.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quan_ly_kho_hang" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quan_ly_diem_sinh_vien" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baitapbuoi2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,14 +235,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai3/quan_ly_kho_hang.py" />
+      <option name="SCRIPT_NAME" value="D:\baitapbuoi2\bai4\quan_ly_diem_sinh_vien.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quan_ly_sinh_vien" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tu_dien_anh_viet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baitapbuoi2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,14 +260,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bai4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bai3/quan_ly_sinh_vien.py" />
+      <option name="SCRIPT_NAME" value="D:\baitapbuoi2\bai4\tu_dien_anh_viet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.quan_ly_kho_hang" />
-        <item itemvalue="Python.quan_ly_sinh_vien" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.hoat_dong_1_2_3" />
-        <item itemvalue="Python.hoat_dong_4_5" />
+        <item itemvalue="Python.quan_ly_diem_sinh_vien (1)" />
+        <item itemvalue="Python.tu_dien_anh_viet.py," />
+        <item itemvalue="Python.quan_ly_diem_sinh_vien.py (1)" />
+        <item itemvalue="Python.quan_ly_diem_sinh_vien.py." />
+        <item itemvalue="Python.dem_tan_suat_tu" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +303,7 @@
       <workItem from="1787888211538" duration="62000" />
       <workItem from="1787888286355" duration="1913000" />
       <workItem from="1788483869335" duration="6529000" />
+      <workItem from="1789088678037" duration="6327000" />
     </task>
     <servers />
   </component>
@@ -275,12 +311,19 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2_3.coverage" NAME="hoat_dong_1_2_3 Coverage Results" MODIFIED="1788490247266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2_3.coverage" NAME="hoat_dong_1_2_3 Coverage Results" MODIFIED="1789090898980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$1.coverage" NAME="1 Coverage Results" MODIFIED="1788490968671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
-    <SUITE FILE_PATH="coverage/baitapbuoi2$dang_ky_thong_tin.coverage" NAME="dang_ky_thong_tin Coverage Results" MODIFIED="1787890241793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_diem_sinh_vien_py_.coverage" NAME="quan_ly_diem_sinh_vien.py. Coverage Results" MODIFIED="1789094810545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_sinh_vien.coverage" NAME="quan_ly_sinh_vien Coverage Results" MODIFIED="1788491186371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_4_5.coverage" NAME="hoat_dong_4_5 Coverage Results" MODIFIED="1788489078877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
-    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2.coverage" NAME="hoat_dong_1_2 Coverage Results" MODIFIED="1787888420316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_4.coverage" NAME="hoat_dong_4 Coverage Results" MODIFIED="1789093719292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$tu_dien_anh_viet_py_.coverage" NAME="tu_dien_anh_viet.py, Coverage Results" MODIFIED="1789094845972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_diem_sinh_vien_py__1_.coverage" NAME="quan_ly_diem_sinh_vien.py (1) Coverage Results" MODIFIED="1789094832837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$dem_tan_suat_tu.coverage" NAME="dem_tan_suat_tu Coverage Results" MODIFIED="1789094093101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$dang_ky_thong_tin.coverage" NAME="dang_ky_thong_tin Coverage Results" MODIFIED="1787890241793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2_3__1_.coverage" NAME="hoat_dong_1_2_3 (1) Coverage Results" MODIFIED="1789093057941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
     <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_kho_hang.coverage" NAME="quan_ly_kho_hang Coverage Results" MODIFIED="1788491235923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai3" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$hoat_dong_1_2.coverage" NAME="hoat_dong_1_2 Coverage Results" MODIFIED="1787888420316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai2" />
+    <SUITE FILE_PATH="coverage/baitapbuoi2$quan_ly_diem_sinh_vien__1_.coverage" NAME="quan_ly_diem_sinh_vien (1) Coverage Results" MODIFIED="1789094947532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bai4" />
   </component>
 </project>
