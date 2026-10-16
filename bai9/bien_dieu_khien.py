@@ -1,0 +1,20 @@
+import tkinter as tk
+
+cua_so = tk.Tk()
+cua_so.title("vi du dieu khien")
+cua_so.geometry("500x400")
+bien_ho_ten = tk.StringVar(value="nguyen viet anh ")
+bien_tuoi = tk.IntVar(value=20) 
+bien_dong_y_dieu_khien = tk.BooleanVar(value=False)
+tk.Label(cua_so, text="Ho ten:").grid(row=0, column=0, padx=10, pady=10, sticky="w")
+tk.Entry(cua_so, textvariable=bien_ho_ten).grid(row=0, column=1, pady=10, padx=10)
+tk.Label(cua_so, text="Tuoi:").grid(row=1, column=0, padx=10, pady=10, sticky="w")
+tk.Entry(cua_so, textvariable=bien_tuoi).grid(row=1, column=1, pady=10, padx=10)
+tk.Checkbutton(cua_so, text="dong y dieu khoan", variable=bien_dong_y_dieu_khien).grid(row=2, column=0, columnspan=2, pady=10)
+def xem_gia_tri_bien():
+    print("ho ten (StringVar): ", bien_ho_ten.get())
+    print("tuoi(IntVar): ", bien_tuoi.get())
+    print("Dong y dieu khoan (BooleanVar):", bien_dong_y_dieu_khien.get())
+    bien_tuoi.set(bien_tuoi.get() + 1)
+tk.Button(cua_so, text="Xem gia tri bien (va +1 tuoi)", command=xem_gia_tri_bien).grid(row=3, column=0, columnspan=2, pady=10)
+cua_so.mainloop()
