@@ -19,3 +19,5 @@ if response.status_code == 200:
     print(f"1 USD = {ty_gia_vnd:,.0f} VND")
 else:
     print("Khong lay duoc ty gia, ma loi:", response.status_code)
+
+    print ("")
